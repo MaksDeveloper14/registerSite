@@ -1,0 +1,77 @@
+.title {
+	text-align: center;
+}
+
+
+/* Модальное окно регистрации */
+
+.modal-register {
+	display: none;
+	border: solid 3px black;
+	padding: 30px;
+	background-color: #eeeeee;
+	max-width: 500px;
+	margin: 0 auto;
+}
+.modal-register__form {
+
+}
+.modal-register__form label {
+	display: block;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}
+.modal-register__form label:first-child {
+	margin-top: 10px;
+}
+.modal-register__form input {
+	display: block;
+	width: 100%;
+	height: 30px;
+}
+.modal-register__name {
+}
+.modal-register__email {
+}
+.modal-register__login {
+}
+.modal-register__password {
+}
+.modal-register__submit {
+	margin-top: 60px;
+	cursor: pointer;
+}
+
+/* Кнопка зарегистрироваться */
+
+.row {
+	display: flex;
+}
+
+.btn {
+	display: inline-block;
+	margin: 0 auto;
+	padding: 10px 20px;
+	border-radius: 10px;
+	background-color: green;
+	color: white;
+	font-size: 24px;
+	cursor: pointer;
+	margin-top: 50px;
+	border: none;
+	transition: background-color .3s;
+}
+.btn:hover {
+	background-color: #069106;
+}
+
+
+
+@media screen and (max-width: 500px) {
+	body {
+		padding: 0 20px;
+	}
+	.btn {
+		font-size: 18px;
+	}
+}

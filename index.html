@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Регистрация и авторизация пользователя</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	
+
+	<!-- Модальное окно регистрации -->
+	<h1 class="title">Начинаем регистрацию!</h1>
+	<div class="modal-register">
+		<form action="reg.php" method="POST" enctype="multipart/form-data" class="modal-register__form">
+			<label for="formname" class="">Имя</label>
+			<input type="text" name="name" id="formname" class="modal-register__name">
+			<label for="formemail" class="">Email</label>
+			<input type="email" name="email" id="formemail" class="modal-register__email">
+			<label for="formlogin" class="">Логин</label>
+			<input type="text" name="login" id="formlogin" class="modal-register__login">
+			<label for="formpassword" class="">Пароль</label>
+			<input type="password" name="password" id="formpassword" class="modal-register__password">
+			<input type="submit" class="modal-register__submit">
+		</form>
+	</div>
+
+
+	<!-- Кнопка Зарегитсрироваться -->
+
+	<div class="row">
+		<button type="button" class="btn">Зарегистрироваться</button>
+	</div>
+
+
+	<script src="index.js"></script>
+
+</body>
+</html>
